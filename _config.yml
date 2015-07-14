@@ -9,3 +9,4 @@ github_username:  icarcal
 
 # Build settings
 markdown: kramdown
+exclude: [vendor]
