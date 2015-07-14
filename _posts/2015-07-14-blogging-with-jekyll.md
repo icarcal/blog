@@ -31,9 +31,10 @@ There is a few requirements for you to blog with Jekyll:
 
 Run the following command to install Jekill:
 
-```sh
+{% highlight sh %}
 ~ $ gem install jekyll
-```
+{% endhighlight %}
+
 **Tip: Run it with sudo if you have access problems**
 
 After that, your blog plataform is installed.
@@ -43,23 +44,24 @@ After that, your blog plataform is installed.
 After Jekyll's installation, we need to create our blog.
 Create a folder with the name you want to your blog, in my case was icarcal.github.io
 
-```sh
+{% highlight sh %}
 ~ $ mkdir your_blog_name
 ~ $ cd your_blog_name
-```
+{% endhighlight %}
 
 After that, run the following code to create your blog
 
-```sh
+{% highlight sh %}
 ~ $ jekyll new .
-```
+{% endhighlight %}
 
 or, if you want to do it all at once:
 
 
-```sh
+{% highlight sh %}
 ~ $ jekyll new your_blog_name
-```
+{% endhighlight %}
+
 **This command will create the folder and initialize a new Jekyll blog**
 
 
