@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.1
 install: gem install jekyll html-proofer
-script: jekyll build && htmlproof ./_site
+script: jekyll build && htmlproof ./_site --href-ignore #
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
