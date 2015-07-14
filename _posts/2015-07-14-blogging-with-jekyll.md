@@ -13,8 +13,11 @@ Thats the story of how I started to blog with Jekyll.
 > A long time ago in a galaxy far far away...
 
 Let's begin.
+
 There's a bunch of information on the official [Jekyll] website.
+
 If you do'not want to read all of it, there is a how-to create a blog with jekyll in the first page.
+
 But, aas my first post, let's do the basics and how to put your blog with jekyll and github up and running
 
 I'm assuming that your are confident with the terminal (on unix based systems).
