@@ -26,7 +26,7 @@ You can begin your blog with no teminal skills, every command is here :D
 
 There is a few requirements for you to blog with Jekyll:
  
- - [Ruby] (including development headers)
+ - [Ruby]  \(including development headers\)
 
  - [RubyGems]
  
