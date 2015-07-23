@@ -6,6 +6,7 @@ categories: jekyll beginner
 thumbnail: gravatar
 tags:
  - jekyll
+author: Icaro
 ---
 
 ## Begin blogging with Jekyll and GitHub
