@@ -3,7 +3,9 @@ layout: post
 title:  "Blogging with Jekyll!"
 date:   2015-07-14 01:16:00
 categories: jekyll beginner
-posttitle:  "Blogging with Jekyll!"
+thumbnail: gravatar
+tags:
+ - jekyll
 ---
 
 ## Begin blogging with Jekyll and GitHub
@@ -23,9 +25,13 @@ You can begin your blog with no teminal skills, every command is here :D
 ### Step one: Requirements
 
 There is a few requirements for you to blog with Jekyll:
+ 
  - [Ruby] (including development headers)
+
  - [RubyGems]
+ 
  - Linux, Unix, or Mac OS X
+ 
  - [NodeJS], or another JavaScript runtime (for [CoffeeScript] support).
 
 ### Step two: Install Jekyll

@@ -66,10 +66,6 @@ pre {
 /**
  * Materialize side bar
  */
-header, main, footer {
-    padding-left: 240px;
-}
-
 @media only screen and (max-width : 992px) {
     header, main, footer {
       padding-left: 0;
@@ -96,4 +92,14 @@ nav.top-nav {
 nav.top-nav span.page-title {
   line-height: 122px;
   font-size: 48px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }

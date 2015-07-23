@@ -1,23 +1,19 @@
-<header>
-  <nav class="top-nav blue-grey darken-1">
-    <div class="container">
-      <div class="col s12">
-        <div class="nav-wrapper">
-          <ul class="right hide-on-med-and-down">
-            <span class="page-title brand-logo center">{{ page.posttitle }}</span>
-          </ul>
-          <ul id="slide-out" class="blue-grey darken-2 side-nav fixed">
-              <li class="logo">
-                <a class="logo-container" href="{{ site.baseurl }}/" class="brand-logo"><img src="http://placehold.it/115x57"></a>
-              </li>
-              {% for page in site.pages %}
-                {% if page.title %}
-                  <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                {% endif %}
-              {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
+<nav id="my-menu">
+  <div>
+    <p>{{ site.title }}</p>
+    <ul class="pages">
+      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
+      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
+    </ul>
+    <p class="links">
+      {% if site.twitter_username %}<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_new"><i class="fa fa-twitter"></i></a>{% endif %}
+      {% if site.linkedin_link %}<a href="{{ site.linkedin_link }}" target="_new"><i class="fa fa-linkedin"></i></a>{% endif %}
+      {% if site.google_plus_link %}<a href="{{ site.google_plus_link }}" target="_new"><i class="fa fa-google-plus"></i></a>{% endif %}
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_new"><i class="fa fa-github-alt"></i></a>{% endif %}
+      {% if site.stackoverflow_link %}<a href="{{ site.stackoverflow_link }}" target="_new"><i class="fa fa-stack-overflow"></i></a>{% endif %}
+      <a href="http://www.jacobtomlinson.co.uk/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
+    </p>
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
