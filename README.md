@@ -1,4 +1,4 @@
-#Blog with jekill :D
+#Blog with jekyll :D
 
 ### Status:
 - master: [![Build Status](https://travis-ci.org/icarcal/icarcal.github.io.svg?branch=master)](https://travis-ci.org/icarcal/icarcal.github.io)

@@ -3,29 +3,35 @@ layout: post
 title:  "Blogging with Jekyll!"
 date:   2015-07-14 01:16:00
 categories: jekyll beginner
+thumbnail: gravatar
+tags:
+ - jekyll
 ---
 
-# Beginning blogging with Jekyll and GitHub
+## Begin blogging with Jekyll and GitHub
 
 Hi folks!
-Thats the story of how I started to blog with Jekyll.
 
-> A long time ago in a galaxy far far away...
+Thats the story of how I started to blog with Jekyll.
 
 Let's begin.
 
-There's a bunch of information on the official [Jekyll] website.
+There's a lot of information on the official [Jekyll] website.
 
 As my first post, I'm going to show what I did to bring this blog up.
 
-I'm assuming that your are confident with the terminal (on unix based systems).
+You can begin your blog with no teminal skills, every command is here :D
 
 ### Step one: Requirements
 
 There is a few requirements for you to blog with Jekyll:
- - [Ruby] (including development headers)
+ 
+ - [Ruby]  \(including development headers\)
+
  - [RubyGems]
+ 
  - Linux, Unix, or Mac OS X
+ 
  - [NodeJS], or another JavaScript runtime (for [CoffeeScript] support).
 
 ### Step two: Install Jekyll

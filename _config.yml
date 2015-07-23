@@ -1,12 +1,29 @@
 # Site settings
 title: Icaro Caldeira Carreira
 email: icaro.caldeira@hotmail.com
-description: Aprendendo e compartilhando conhecimento
+description: Learning and sharing :D
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://icarcal.github.io" # the base hostname & protocol for your site
+title_description: "Icaro Caldeira Carreira - Let`s code"
+title_image: "https://s.gravatar.com/avatar/d56d506539a1a7e6813c414b34185068?s=500&d=mm"
+google_analytics: ""
+disqus_account: 
+github_repository: https://github.com/icarcal/icarcal.github.io
+addthis_id: 
+post_limit: 5
+
+# Social usernames/URLs
 twitter_username: icarcal
 github_username:  icarcal
+linkedin_link: https://www.linkedin.com/in/icarocaldeira
 
 # Build settings
-markdown: kramdown
-exclude: [vendor]
+markdown: redcarpet
+exclude: [vendor, node_modules, bower.json, Gemfile, Rakefile, README.md]
+
+defults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      posttitle: ""
