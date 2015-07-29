@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blogging with Jekyll!"
+title:  "Blogging with Jekyll! [1/2]"
 date:   2015-07-14 01:16:00
 categories: jekyll beginner
 thumbnail: gravatar
@@ -9,21 +9,19 @@ tags:
 author: Icaro
 ---
 
-## Begin blogging with Jekyll and GitHub
+### Begin blogging with Jekyll and GitHub
 
 Hi folks!
 
 Thats the story of how I started to blog with Jekyll.
 
-Let's begin.
-
-There's a lot of information on the official [Jekyll] website.
+First of all, there's a **lot** of information on the official [Jekyll] website, what, at first, may be a little freacking.
 
 As my first post, I'm going to show what I did to bring this blog up.
 
 You can begin your blog with no teminal skills, every command is here :D
 
-### Step one: Requirements
+#### Step one: Requirements
 
 There is a few requirements for you to blog with Jekyll:
  
@@ -35,7 +33,7 @@ There is a few requirements for you to blog with Jekyll:
  
  - [NodeJS], or another JavaScript runtime (for [CoffeeScript] support).
 
-### Step two: Install Jekyll
+#### Step two: Install Jekyll
 
 Run the following command to install Jekill:
 
@@ -47,7 +45,7 @@ Run the following command to install Jekill:
 
 After that, your blog plataform is installed.
 
-### Step Three: Create your blog
+#### Step Three: Create your blog
 
 After Jekyll's installation, we need to create our blog.
 Create a folder with the name you want to your blog, in my case was icarcal.github.io
@@ -65,14 +63,11 @@ After that, run the following code to create your blog
 
 or, if you want to do it all at once:
 
-
 {% highlight sh %}
 ~ $ jekyll new your_blog_name
 {% endhighlight %}
 
 **This command will create the folder and initialize a new Jekyll blog**
-
-
 
 
 [Jekyll]: http://jekyllrb.com/
