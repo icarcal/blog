@@ -11,11 +11,11 @@ author: Icaro
 
 ### Begin blogging with Jekyll and GitHub
 
-Hi folks!
+####Hi folks!
 
 Thats the story of how I started to blog with Jekyll.
 
-First of all, there's a **lot** of information on the official [Jekyll] website, what, at first, may be a little freacking.
+First of all, there's a **lot** of information on the official [Jekyll] website, what, at first, may be a little scary.
 
 As my first post, I'm going to show what I did to bring this blog up.
 
@@ -61,13 +61,13 @@ After that, run the following code to create your blog
 ~ $ jekyll new .
 {% endhighlight %}
 
-or, if you want to do it all at once:
+or, if you want to do it all at once:  
 
 {% highlight sh %}
 ~ $ jekyll new your_blog_name
 {% endhighlight %}
 
-**This command will create the folder and initialize a new Jekyll blog**
+#####Note: this command will create the folder and initialize a new Jekyll blog\)
 
 
 [Jekyll]: http://jekyllrb.com/

@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://icarcal.github.io" # the base hostname & protocol for your site
 title_description: "Icaro Caldeira Carreira - Let`s code"
 title_image: "https://s.gravatar.com/avatar/d56d506539a1a7e6813c414b34185068?s=500&d=mm"
+title_image_thumb: "https://s.gravatar.com/avatar/d56d506539a1a7e6813c414b34185068?s=50&d=mm"
 google_analytics: ""
 disqus_account: 
 github_repository: https://github.com/icarcal/icarcal.github.io
