@@ -25,15 +25,21 @@ For those of you who don't know what is [Git] and [GitHub], here is a small expl
 
 You can learn git with [Try git].
 
-Once again, I'll guide you through the processes, and even if your are nor confortable with the terminal, you can put your blog up.
+Once again, I'll guide you through the processes, and, even if your are nor confortable with the terminal, you can put your blog up.
 
 We need two thing before start:
 
 - a [GitHub] account \(it's free, and it's really good\);
 - [Git] installation \([here] is the guide on how to install\).
 
-At your [GitHub] account, create a repository
-After doing that, let's init our git project:
+Now, let's code :D
+
+####Step 1: Create your repository
+
+At your [GitHub] account, create a [repository] with your Github user name;
+**Once again, in my case it was [icarcal.github.io]
+
+####Step 2: configure your repo localy
 
 Open the terminal
 
@@ -41,3 +47,5 @@ Open the terminal
 [Git]: https://git-scm.com/
 [Try Git]: https://try.github.io/levels/1/challenges/1
 [here]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[repository]: https://help.github.com/articles/create-a-repo/
+[icarcal.github.io]: https://github.com/icarcal/icarcal.github.io
