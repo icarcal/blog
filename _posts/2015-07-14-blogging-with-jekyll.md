@@ -67,7 +67,7 @@ or, if you want to do it all at once:
 ~ $ jekyll new your_blog_name
 {% endhighlight %}
 
-#####Note: this command will create the folder and initialize a new Jekyll blog\)
+#####Note: this command will create the folder and initialize a new Jekyll blog
 
 
 [Jekyll]: http://jekyllrb.com/
